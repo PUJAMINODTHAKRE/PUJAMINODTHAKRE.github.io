@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 470" role="img" aria-labelledby="title desc">
+  <title id="title">Research pipeline for healthcare knowledge representation study</title>
+  <desc id="desc">A research workflow from clinical knowledge through a common representation schema, seven knowledge representation paradigms, five progressively complex queries, lightweight prototypes, comparative evaluation, and findings.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef3ef"/><stop offset="1" stop-color="#fbfaf7"/></linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2f6f64"/><stop offset="1" stop-color="#7c5c34"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#17231f" flood-opacity=".10"/></filter>
+  </defs>
+  <rect width="1500" height="470" rx="34" fill="url(#bg)"/>
+  <g stroke="#9ab8ad" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M252 225 H350"/>
+    <path d="M498 225 H596"/>
+    <path d="M744 225 H842"/>
+    <path d="M990 225 H1088"/>
+    <path d="M1236 225 H1334"/>
+  </g>
+  <g fill="none" stroke="url(#flow)" stroke-width="2" stroke-dasharray="7 8">
+    <path d="M350 130 C400 80 545 80 596 130"/>
+    <path d="M842 130 C900 80 1040 80 1088 130"/>
+    <path d="M596 320 C650 370 790 370 842 320"/>
+  </g>
+  <g fill="#fff" stroke="#d5e0da" filter="url(#shadow)">
+    <rect x="38" y="168" width="214" height="114" rx="22"/>
+    <rect x="350" y="168" width="148" height="114" rx="22"/>
+    <rect x="596" y="168" width="148" height="114" rx="22"/>
+    <rect x="842" y="168" width="148" height="114" rx="22"/>
+    <rect x="1088" y="168" width="148" height="114" rx="22"/>
+    <rect x="1334" y="168" width="128" height="114" rx="22"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" fill="#18231f" text-anchor="middle">
+    <text x="145" y="205" font-size="18" font-weight="750">Clinical Knowledge</text>
+    <text x="145" y="229" font-size="14" fill="#5d6a64">Cardiovascular domain</text>
+    <text x="145" y="253" font-size="14" fill="#5d6a64">47 patient records</text>
+
+    <text x="424" y="205" font-size="16" font-weight="750">Common Schema</text>
+    <text x="424" y="229" font-size="13" fill="#5d6a64">Aligned knowledge</text>
+    <text x="424" y="251" font-size="13" fill="#5d6a64">across paradigms</text>
+
+    <text x="670" y="202" font-size="16" font-weight="750">7 KR Paradigms</text>
+    <text x="670" y="226" font-size="13" fill="#5d6a64">Logic · rules · DBs</text>
+    <text x="670" y="248" font-size="13" fill="#5d6a64">frames · OWL · KGs</text>
+
+    <text x="916" y="202" font-size="16" font-weight="750">5 Queries</text>
+    <text x="916" y="226" font-size="13" fill="#5d6a64">Boolean → contextual</text>
+    <text x="916" y="248" font-size="13" fill="#5d6a64">Increasing complexity</text>
+
+    <text x="1162" y="202" font-size="16" font-weight="750">Prototypes</text>
+    <text x="1162" y="226" font-size="13" fill="#5d6a64">Python · SQLite</text>
+    <text x="1162" y="248" font-size="13" fill="#5d6a64">RDF · OWL · SPARQL</text>
+
+    <text x="1398" y="202" font-size="15" font-weight="750">Evaluation</text>
+    <text x="1398" y="226" font-size="13" fill="#5d6a64">Coverage</text>
+    <text x="1398" y="245" font-size="13" fill="#5d6a64">Reasoning</text>
+    <text x="1398" y="264" font-size="13" fill="#5d6a64">Explainability</text>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="750" y="72" font-size="14" font-weight="800" letter-spacing="2.2" fill="#2f6f64">RESEARCH WORKFLOW</text>
+    <text x="750" y="104" font-size="13" fill="#5d6a64">A common knowledge domain is evaluated through progressively demanding clinical questions.</text>
+  </g>
+  <g fill="#2f6f64" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="800">
+    <text x="387" y="145">ALIGN</text>
+    <text x="632" y="145">COMPARE</text>
+    <text x="878" y="145">STRESS</text>
+    <text x="1124" y="145">IMPLEMENT</text>
+    <text x="1368" y="145">ANALYZE</text>
+  </g>
+</svg>
