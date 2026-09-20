@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" role="img" aria-labelledby="t d">
+  <title id="t">Puja Minodji Thakre research map</title>
+  <desc id="d">A visual map connecting mathematics to statistical learning, structured knowledge, NLP, and intelligent systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef3ef"/>
+      <stop offset="100%" stop-color="#fbfaf7"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f6f64" stop-opacity=".65"/>
+      <stop offset="100%" stop-color="#7c5c34" stop-opacity=".18"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <rect width="1100" height="520" rx="36" fill="url(#bg)"/>
+  <g stroke="url(#line)" stroke-width="2" fill="none">
+    <path d="M300 110 C430 110 420 170 500 185"/>
+    <path d="M300 260 C410 260 420 210 500 205"/>
+    <path d="M300 410 C420 410 430 235 500 220"/>
+    <path d="M615 185 C720 185 690 112 815 112"/>
+    <path d="M615 210 C730 210 720 270 815 270"/>
+    <path d="M615 232 C720 250 700 405 815 405"/>
+    <path d="M815 112 C905 112 890 160 990 160"/>
+    <path d="M815 270 C905 270 900 270 990 270"/>
+    <path d="M815 405 C900 405 900 360 990 360"/>
+  </g>
+  <g fill="#fff" stroke="#d8e2dc" filter="url(#shadow)">
+    <rect x="70" y="72" width="230" height="76" rx="18"/>
+    <rect x="70" y="222" width="230" height="76" rx="18"/>
+    <rect x="70" y="372" width="230" height="76" rx="18"/>
+    <rect x="500" y="145" width="250" height="110" rx="22" stroke="#2f6f64"/>
+    <rect x="815" y="72" width="210" height="78" rx="18"/>
+    <rect x="815" y="231" width="210" height="78" rx="18"/>
+    <rect x="815" y="366" width="210" height="78" rx="18"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" fill="#18231f">
+    <text x="95" y="101" font-size="18" font-weight="700">Mathematics</text>
+    <text x="95" y="126" font-size="13" fill="#5d6a64">Analysis · Probability · Statistics</text>
+    <text x="95" y="251" font-size="18" font-weight="700">Statistical Learning</text>
+    <text x="95" y="276" font-size="13" fill="#5d6a64">Inference · Data Mining · Modelling</text>
+    <text x="95" y="401" font-size="18" font-weight="700">Structured Knowledge</text>
+    <text x="95" y="426" font-size="13" fill="#5d6a64">Graphs · Ontologies · Semantics</text>
+
+    <text x="530" y="185" font-size="21" font-weight="750">Research Core</text>
+    <text x="530" y="214" font-size="14" fill="#5d6a64">Learning · Representation · Reasoning</text>
+    <text x="530" y="238" font-size="14" fill="#5d6a64">over structured and real-world data</text>
+
+    <text x="840" y="102" font-size="17" font-weight="700">Knowledge Graphs</text>
+    <text x="840" y="126" font-size="13" fill="#5d6a64">RDF · OWL · SPARQL</text>
+    <text x="840" y="261" font-size="17" font-weight="700">NLP &amp; Text</text>
+    <text x="840" y="285" font-size="13" fill="#5d6a64">Text classification · semantics</text>
+    <text x="840" y="396" font-size="17" font-weight="700">Intelligent Systems</text>
+    <text x="840" y="420" font-size="13" fill="#5d6a64">Healthcare QA · quantitative research</text>
+  </g>
+</svg>
