@@ -1,0 +1,9 @@
+{
+  "name": "Puja Minodji Thakre — Academic Website",
+  "short_name": "Puja Thakre",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f8f5",
+  "theme_color": "#2f6f64",
+  "icons": [{"src":"assets/favicon.svg","sizes":"any","type":"image/svg+xml"}]
+}
